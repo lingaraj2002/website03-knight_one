@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.serve-container{
+    width: 90%;
+    margin: auto;
+}
+.serve-row-1{
+    display: flex;
+    justify-content: left;
+}
+.serve-col-1{
+    width: 40%;
+    padding: 20px;
+}
+.serve-col-1 h1{
+    font-size: 27px;
+    padding: 0 50px;
+    color: orangered;
+}
+.serve-col-1 h3{
+    font-size: 50px;
+    padding: 5px 20px;
+    font-family: 'Playfair Display SC', serif;
+}
+.serve-col-1 p{
+    padding: 5px 10px;
+}
+.serve-row-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.serve-col-2{
+    width: 30%;
+
+}
+.serve-img{
+    width: 100%;
+    position: relative;
+}
+.serve-img img{
+    max-width: 100%;
+}
+.serve-content{
+    padding: 10px;
+    width: 70%;
+}
+.serve-content h2{
+    font-family: 'Playfair Display SC', serif;
+}
+.serve-con{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    background-color: white;
+    color: orange;
+    padding: 30px;
+    font-size: 25px;
+}
+
+@media(min-width:320px){
+    .serve-col-1{
+        width: 100%;
+        padding: 10px;
+    }
+    .serve-col-1 h1{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .serve-col-1 h3{
+        font-size: 30px;
+        padding: 5px 10px;
+    }
+    .serve-col-2{
+        width: 100%;
+    }
+    .serve-content{
+        width: 100%;
+    }
+}
+
+@media(min-width:690px){
+    .serve-col-1{
+        width: 100%;
+        padding: 10px;
+    }
+    .serve-col-1 h1{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .serve-col-1 h3{
+        font-size: 30px;
+        padding: 5px 10px;
+    }
+    .serve-col-2{
+        width: 45%;
+    }
+    .serve-content{
+        width: 100%;
+    }
+}
+
+@media(min-width:1020px){
+    .serve-col-1{
+        width: 40%;
+        padding: 20px;
+    }
+    .serve-col-1 h1{
+        font-size: 27px;
+        padding: 0 50px;
+    }
+    .serve-col-1 h3{
+        font-size: 50px;
+        padding: 5px 20px;
+    }
+    .serve-col-2{
+        width: 30%;
+    }
+    .serve-content{
+        width: 100%;
+    }
+}

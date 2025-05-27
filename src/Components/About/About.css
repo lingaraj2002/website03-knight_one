@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-container{
+    width: 90%;
+    margin: auto;
+}
+.about-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    width:50%;
+    padding:80px 20px;
+}
+.about-con-2{
+    padding: 40px 20px;
+}
+.about-con-2 a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+.about-con-1 h1{
+    font-size: 27px;
+    padding: 0 50px;
+    color: orangered;
+}
+.about-con-1 h3{
+    font-size: 50px;
+    padding: 5px 20px;
+    font-family: 'Playfair Display SC', serif;
+}
+.about-con-1 p{
+    padding: 5px 10px;
+}
+.about-col-2{
+    width: 50%;
+    display: flex;
+    padding:80px 20px;
+}
+.about-img-1{
+    width: 50%;
+    padding: 20px;
+}
+.about-img-1 img{
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+.about-img-2{
+    width: 50%;
+    padding: 20px;
+}
+.about-img-2 img{
+    max-width: 100%;
+    padding-top: 20px;
+}
+
+@media(min-width:320px){
+    .about-col-1{
+        width: 100%;
+        padding: 40px 10px;
+    }
+    .about-con-1 h1{
+        font-size: 20px;
+        padding: 0 30px;
+    }
+    .about-con-1 h3{
+        font-size: 30px;
+        padding: 5px;
+    }
+    .about-con-1 p{
+        padding: 5px 0;
+    }
+
+    .about-col-2{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .about-img-1{
+        padding: 10px;
+    }
+    .about-img-2{
+        padding: 10px;
+    }
+
+}
+
+@media(min-width:1020px){
+    .about-col-1{
+        width: 50%;
+        padding: 80px 20px;
+    }
+    .about-con-1 h1{
+        font-size: 27px;
+        padding: 0 60px;
+    }
+    .about-con-1 h3{
+        font-size: 50px;
+        padding: 5px 20px;
+    }
+    .about-con-1 p{
+        padding: 5px 10px;
+    }
+
+    .about-col-2{
+        width: 50%;
+        padding: 80px 20px;
+    }
+    .about-img-1{
+        padding: 20px;
+    }
+    .about-img-2{
+        padding: 20px;
+    }
+
+}

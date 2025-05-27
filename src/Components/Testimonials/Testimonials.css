@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.components-4{
+    padding: 70px 0;
+}
+.testimonials-container{
+    width: 90%;
+    margin: auto;
+}
+.testimonials-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.testimonials-col-1{
+    width: 50%;
+    padding: 30px;
+}
+.testimonials-con-1{
+    padding: 10px;
+}
+.testimonials-con-1 h1{
+    font-size: 25px;
+    color: orange;
+}
+.testimonials-con-1 h3{
+    font-size: 50px;
+    font-family: 'Playfair Display SC', serif;
+}
+.testimonials-con-2{
+    padding: 10px;
+}
+.testimonials-con-2 h2{
+    color: orange;
+    font-size: 20px;
+}
+.testimonials-img{
+    width: 15%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.testimonials-img img{
+    max-width: 100%;
+}
+.testimonials-con-3{
+    padding: 10px;
+}
+.testimonials-col-2{
+    width: 50%;
+    padding: 30px;
+}
+.testimonials-content{
+    padding: 10px;
+}
+.testimonials-content h1{
+    color: orange;
+    font-size: 25px;
+}
+.testimonials-content h3{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+}
+.testimonials-con-4{
+    display: flex;
+    padding: 10px 30px;
+}
+.testimonials-icon{
+    font-weight: bold;
+    padding: 5px;
+}
+.testimonials-p{
+    padding: 5px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+@media(min-width:320px){
+    .testimonials-container{
+        width: 100%;
+    }
+    .testimonials-col-1{
+        width: 100%;
+    }
+    .testimonials-col-2{
+        width: 100%;
+    }
+    .testimonials-img{
+        width: 50%;
+    }
+    .testimonials-content h3{
+        font-size: 25px;
+    }
+    .testimonials-con-4{
+        padding: 10px ;
+    }
+}
+
+@media(min-width:690px){
+    .testimonials-content h3{
+        font-size: 30px;
+    }
+    .testimonials-img{
+        width: 20%;
+    }
+}
+
+@media(min-width:1020px){
+    .testimonials-container{
+        width: 90%;
+        margin: auto;
+    }
+    .testimonials-col-1{
+        width: 50%;
+    }
+    .testimonials-col-2{
+        width: 50%;
+    }
+    .testimonials-img{
+        width: 15%;
+    }
+    .testimonials-content h3{
+        font-size: 40px;
+    }
+    .testimonials-con-4{
+        padding: 10px  30px;
+    }
+}

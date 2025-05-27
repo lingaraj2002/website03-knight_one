@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.component{
+    background-image: url(img/headbg.jpg);
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.col1{
+    width: 15%;
+    padding: 20px 10px;
+    text-align: right;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+}
+.col2{
+    width:50% ;
+    padding: 25px 15px;
+    font-size: 17px;
+    text-align: left;
+    display: block;
+}
+.col3{
+    width: 20%;
+    text-align: center;
+    padding: 30px 20px;
+    display: block;
+}
+.nav-col-4{
+    display: none;
+    padding: 20px 15px;
+}
+.nav-col-4 i{
+    padding: 3px 6px;
+    font-size: 25px;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius:7px ;
+}
+ul li{
+    display: inline;
+    padding:10px 20px ;
+    color: aliceblue;
+}
+.col3 a{
+    padding:7px 10px;
+    border: 1px solid rgb(199, 198, 198);
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+.row-2{
+    display: flex;
+    flex-direction: column;
+}
+.col-4{
+    color: white;
+    font-size: 60px;
+    padding: 80px;
+    font-family: 'Playfair Display SC', serif;
+}
+.col-5{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding:40px 80px ;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    color: black;
+}
+.icon-con{
+    padding: 5px 10px;
+    font-size: 25px;
+}
+.col-6{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 80px;
+}
+.loc-icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.185);
+    border-radius: 50%;
+}
+.loc-con{
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media(min-width:320px){
+    .col2{
+        display: none;
+    }
+    .col3{
+        display: none;
+    }
+    .nav-col-4{
+        display: block;
+    }
+    .col-4{
+        font-size: 35px;
+        padding: 60px;
+    }
+    .col-5{
+        padding: 40px 40px;
+    }
+    .col-6{
+        padding: 15px 40px;
+    }
+    .loc-icon{
+        width: 30px;
+        height: 30px;
+    }
+    .loc-con{
+        font-size: 13px;
+    }
+}
+
+@media(min-width:1020px){
+    .col2{
+        display: block;
+    }
+    .col3{
+        display: block;
+    }
+    .nav-col-4{
+        display: none;
+    }
+    .col-4{
+        font-size: 60px;
+        padding: 80px;
+    }
+    .col-5{
+        padding: 40px 80px;
+    }
+    .col-6{
+        padding: 10px 80px;
+    }
+    .loc-icon{
+        width: 50px;
+        height: 50px;
+    }
+    .loc-con{
+        font-size: 20px;
+    }
+}
+
